@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="container">
+    <div class="search">
+    <h1>Excellence Center</h1>
+    <input type="text" name="" id="find" placeholder="search here...." onkeyup="search()">
+    </div>
+    
+    <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <!--<button class="button-value" onclick="filterProduct('Salma Abouelhossein(Ph.D)' , 'Hugo Betting(Ph.D)' )">(Ph.D)</button>
+        <button class="button-value" onclick="filterProduct('Hugo Betting(Ph.D)')"></button> 
+        <button class="button-value" onclick="filterProduct('Ph.d')">Phillip Denny(Ph.D)</button> -->
+        <button class="button-value" onclick="filterProduct(['Salma Abouelhossein(Ph.D)', 'Hugo Betting(Ph.D)', 'Phillip Denny(Ph.D)'])">Ph.D</button>
+    
+        <button class="button-value" onclick="filterProduct(['Stephanie Doran Brubaker(UG)', 'Alexandra Glynn(UG)', 'Phillip Denny(UG)'])">UG</button>
+        <button class="button-value" onclick="filterProduct('Post Graduate(PG)')">PG</button>
+        <button class="button-value" onclick="filterProduct('Bachelor Of Pharmacy(B Pharm)')">B Pharm</button> 
+      </div>
+    
+    
+    <div class="product-list">
+    <div class="product">
+    <img src ="https://alleninstitute.org/wp-content/uploads/2023/04/Meg-McClellan-2022-headshot.jpg">
+    <h3>Salma Abouelhossein(Ph.D)</h3>
+    <h4>she is in her 7th year of the<br> Ph.D. program in urban studies <br>and planning.</br></h4>
+    </div>
+    <div class="product">
+    <img src="https://www.gsd.harvard.edu/wp-content/uploads/2022/07/Betting_H_r-287x300.jpg">
+    <h3>Hugo Betting(Ph.D)</h3>
+    <h4>he is an architect and a<br> third-year Ph.D.student.</br></h4>
+    </div>
+    <div class="product">
+    <img src="https://www.gsd.harvard.edu/wp-content/uploads/2020/08/Denny_P2-300x274.jpg">
+    <h3>Phillip Denny(Ph.D)</h3>
+    <h4>he is a PhD candidate working <br> on histories of architectural,<br>colonialism, and urbanization</h4></h4>
+    </div>
+    <div class="product">
+    <img src="https://www.sph.pitt.edu/sites/default/files/assets/DoranBrubakerphoto%20Medium.png">
+    <h3>Stephanie Doran Brubaker(UG)</h3>
+    <h4>She is a UG student in <br>Computer science & Engineering.</h4></h4>
+    </div>
+    <div class="product">
+    <img src="https://www.sph.pitt.edu/sites/default/files/inline-images/HPM/students/Heather%20Mentch%20Headshot.jpg">
+    <h3>Alexandra Glynn(UG)</h3>
+    <h4>She is a UG student parsuing <br>Mechanical Engineering in the <br>final Year.</br></h4>
+    </div>
+    <div class="product">
+      <img src="https://imgs.search.brave.com/5I9pCUc6JmDV08Vach44SCHU3LhtIrVxd1Oxi0FwhLI/rs:fit:500:0:0/g:ce/aHR0cDovL3d3dy5w/aGFybWFjeS5jdWhr/LmVkdS5oay8xL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE2LzA1/LzVEM0IwNTY1LTMw/NS0xMDI0eDY2OC5q/cGc">
+      <h3>Bachelor Of Pharmacy(B Pharm)</h3>
+      <h4>A Bachelor of Pharmacy (abbreviated B Pharm<br> or PharmB or BS Pharm) is a graduate<br> academic degree in the field of pharmacy.<br>In some countries, it has been superseded<br> by the Doctor of Pharmacy (PharmD) <br>and Master of Pharmacy (MPharm) degrees.</br></h4>
+      </div>
+    
+    <div class="product">
+    <img src="https://imgs.search.brave.com/wAl98ksB_FFyM4rphE2uiUcJdr-KTKZv0zQayyaKcm0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zY2hv/bGFyc2hpcG93bC5j/b20vYmxvZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wMS9j/bGF5LWJhbmtzLUhm/OG4wUlVrN2cwLXVu/c3BsYXNoLmpwZw">
+    <h3>Post Graduate(PG)</h3>
+    <h4>Even if you re still in college. Your dream career <br>may require you to continue your education after <br>college and get a master’s degree or even a Ph.D.</br>  </h4>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
