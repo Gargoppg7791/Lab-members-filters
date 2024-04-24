@@ -48,6 +48,7 @@
     text-transform: capitalize;
     letter-spacing: 3px;
     outline: none;
+    border-radius: 30px;
   }
   
   .container .search input::placeholder {
@@ -134,5 +135,13 @@
       margin-top: 20px; /* Adjusted margin for smaller screens */
       text-align: center; /* Center-align buttons */
     }
+  }
+  
+  /* Add styles for the active state of filter buttons */
+  .button-value:hover,
+  .button-value:focus,
+  .button-value:checked {
+    background-color: #6759ff;
+    color: #ffffff;
   }
   
